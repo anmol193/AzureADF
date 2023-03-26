@@ -1,0 +1,30 @@
+{
+	"name": "ds_azsqlbad",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_azsqlbad",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "EmpJD",
+				"type": "varchar"
+			},
+			{
+				"name": "EmpId",
+				"type": "varchar"
+			},
+			{
+				"name": "EmpName",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "tbl_Emp_bad"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

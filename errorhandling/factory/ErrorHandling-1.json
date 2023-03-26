@@ -1,0 +1,9 @@
+{
+	"name": "ErrorHandling-1",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4214aefc-3e8d-42a3-baba-75b9e956ef7f",
+		"tenantId": "ab52d4e5-9cc7-437a-bdda-f4239e145187"
+	}
+}

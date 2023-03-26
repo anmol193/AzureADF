@@ -1,0 +1,37 @@
+{
+	"name": "ds_Emp",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_Emp",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Emp1.csv",
+				"container": "source"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "EmpJD",
+				"type": "String"
+			},
+			{
+				"name": "EmpId",
+				"type": "String"
+			},
+			{
+				"name": "EmpName",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
